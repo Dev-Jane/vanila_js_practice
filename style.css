@@ -1,0 +1,49 @@
+@import 'reset.css';
+
+.search-box {
+    margin-top: 20px;
+    /* text-align: center; */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-box {
+    display: flex;
+}
+
+/* .input-box-active {
+    display: flex;
+} */
+
+.search-input {
+    /* width: 30%; */
+    height: 150px;
+    /* max-width: 50%; */
+    font-size: 15px;
+    /* box-shadow: none;
+    text-indent: 8px;
+    direction: ltr;
+    outline: 0; */
+    box-shadow: none;
+    outline: 0;
+}
+input:focus {
+    outline: 3px solid #F90;
+}
+.search-btn {
+    cursor: pointer;
+}
+
+.auto-complete-results-list {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.auto-complete-box-active {
+    border: 1px solid #000000;
+    background-color: lightgray;
+    margin-top: 0.5px;
+    margin-left: 20px;
+    width: 200px;
+}
