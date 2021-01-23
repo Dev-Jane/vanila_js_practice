@@ -3,13 +3,14 @@
 .search-box {
     margin-top: 20px;
     /* text-align: center; */
-    width: 50%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .input-box {
     display: flex;
+    /* width: 100%; */
 }
 
 /* .input-box-active {
@@ -30,11 +31,14 @@
 }
 input:focus {
     outline: 3px solid #F90;
+
 }
 .search-btn {
     cursor: pointer;
+    margin-left: 2%;
+    width: 15%;
+    
 }
-
 .auto-complete-results-list {
     margin: 5px;
     font-weight: bold;
